@@ -11,6 +11,7 @@ that data to our View and display the data.
     Transferring data through path-variables is a method but we can only send small amount of data using this variables, Do
     not use more than 3 parameters. Yes we can use it so it directly can be appended with the URI and is a easy method and can 
     be viewed in the URI and when the value we pass is compulsory to be entered.
+    Easier for Search-Engines to index the web-pages and hence the website can be easily located on the Internet.
 
 2. In the other method in Page Controller class I have a method which is let's say for instance going to give us 
    all the mobiles with specified price-range and also tell it is available or not.
