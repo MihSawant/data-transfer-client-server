@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Books</title>
-    <style rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8"/>
+    <title>Mobiles</title>
+    <style rel="stylesheet" type="text/css">
         *{
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
         }
-        .book-data{
+        .mobile-data{
             font-family: sans-serif;
             font-size: 2.0rem;
             line-height: 1;
-            border: 2px solid;
+            border: 2.5px solid;
             padding: 2.0rem;
+            color: blue;
 
-            width: 500px;
+            width: 85%;
 
-            text-align: center;
             margin: auto;
         }
     </style>
 </head>
 <body>
-<div class="book-data">
-    <b>Book Name</b> :<p th:text="${bookName}"></p><br>
-    <b>Book Id:</b> <p th:text="${bookId}"></p>
+<div class="mobile-data">
+    <p th:text="${'Mobile Price between INR : ' + minPrice + ' and ' + maxPrice}"></p>
+    <p th:text="${'Mobile Available: ' + isAvailable}"></p>
 </div>
+
 </body>
 </html>
